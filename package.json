@@ -4,6 +4,14 @@
     "description": "My personal Prettier config",
     "main": "index.js",
     "repository": "git@github.com:pawelmisiak/prettier-config.git",
+    "keywords": [
+        "config",
+        "prettier"
+      ],
     "author": "Pawel Misiak",
-    "license": "MIT"
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/pawelmisiak/prettier-config/issues"
+      },
+      "homepage": "https://github.com/pawelmisiak/prettier-config#readme"
   }
