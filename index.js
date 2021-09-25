@@ -17,5 +17,12 @@ module.exports = {
             tabWidth: 10,
          },
       },
+      {
+        files: ["testing/*.js"],
+        options: {
+          tabWidth: 4,
+          printWidth: 20,
+        }
+      }
    ],
 };
