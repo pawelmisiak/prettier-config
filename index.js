@@ -1,9 +1,17 @@
 module.exports = {
-   singleQuote: true,
-   tabWidth: 1,
-   bracketSpacing: true,
+   printWidth: 120,
+   tabWidth: 2,
+   useTabs: false,
    semi: true,
-   printWidth: 150,
+   singleQuote: true,
+   quoteProps: 'as-needed',
+   jsxSingleQuote: false,
+   trailingComma: 'es5',
+   bracketSpacing: true,
+   bracketSameLine: false,
+   arrowParens: 'always',
+   htmlWhitespaceSensitivity: 'css',
+   endOfLine: 'lf',
 
    overrides: [
       {
@@ -14,11 +22,11 @@ module.exports = {
          },
       },
       {
-        files: ["testing/*.js"],
-        options: {
-          tabWidth: 4,
-          printWidth: 20,
-        }
-      }
+         files: ['testing/*.js'],
+         options: {
+            tabWidth: 4,
+            printWidth: 20,
+         },
+      },
    ],
 };
