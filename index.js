@@ -1,28 +1,33 @@
 module.exports = {
-   // printWidth: 50,
-   singleQuote: true,
-   tabWidth: 1,
-   bracketSpacing: true,
-   semi: true,
-   printWidth: 150,
-   // singleQuote: false,
-   // tabWidth: 5,
-   // bracketSpacing: false,
-   // semi: false,
-   overrides: [
+   'prettier/prettier': [
+      'error',
       {
-         files: 'haha.js',
-         options: {
-            printWidth: 250,
-            tabWidth: 10,
-         },
+         // printWidth: 50,
+         singleQuote: true,
+         tabWidth: 1,
+         bracketSpacing: true,
+         semi: true,
+         printWidth: 150,
+         // singleQuote: false,
+         // tabWidth: 5,
+         // bracketSpacing: false,
+         // semi: false,
+         overrides: [
+            {
+               files: 'haha.js',
+               options: {
+                  printWidth: 250,
+                  tabWidth: 10,
+               },
+            },
+            {
+               files: ['testing/*.js'],
+               options: {
+                  tabWidth: 4,
+                  printWidth: 20,
+               },
+            },
+         ],
       },
-      {
-        files: ["testing/*.js"],
-        options: {
-          tabWidth: 4,
-          printWidth: 20,
-        }
-      }
    ],
 };

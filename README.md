@@ -1,1 +1,1 @@
-# prettier-config
+# Insider Intelligence prettier-config
