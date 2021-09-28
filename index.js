@@ -12,21 +12,4 @@ module.exports = {
    arrowParens: 'always',
    htmlWhitespaceSensitivity: 'css',
    endOfLine: 'lf',
-
-   overrides: [
-      {
-         files: 'haha.js',
-         options: {
-            printWidth: 250,
-            tabWidth: 10,
-         },
-      },
-      {
-         files: ['testing/*.js'],
-         options: {
-            tabWidth: 4,
-            printWidth: 20,
-         },
-      },
-   ],
 };
