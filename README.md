@@ -1,17 +1,17 @@
-# Insider Intelligence shared prettier-config
+# Insider Intelligence shared PrettierConfig
 
 ## Installation
 
 To install this package run the following command in the terminal in the root directory of your application.
 
 ```
-npm install --save-dev @pawelmisiak/prettier-config
+npm install --save-dev **FILL IN THIS PART**
 ```
 
 **OR**
 
 ```
-yarn add --dev @pawelmisiak/prettier-config
+yarn add --dev **FILL IN THIS PART**
 ```
 
 ## Usage
@@ -19,7 +19,7 @@ yarn add --dev @pawelmisiak/prettier-config
 Add a key in your **package.json** file.
 
 ```
-"prettier": "@pawelmisiak/prettier-config"
+"prettier": "**FILL IN THIS PART**"
 ```
 
 **OR**
@@ -27,7 +27,7 @@ Add a key in your **package.json** file.
 Create a **.prettierrc** file and export a string.
 
 ```
-"@pawelmisiak/prettier-config"
+"**FILL IN THIS PART**"
 ```
 
 **OR if you want to extend or overwrite the property consider this example**
@@ -36,7 +36,7 @@ Create a **.prettierrc.js** file and export an object.
 
 ```
 module.exports = {
-  ...require("@pawelmisiak/prettier-config"),
+  ...require("**FILL IN THIS PART**"),
   // endOfLine: 'lf', // to overwrite the property
 };
 ```
