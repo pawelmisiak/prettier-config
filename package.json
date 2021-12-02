@@ -14,7 +14,7 @@
       "url": "https://github.com/pawelmisiak/prettier-config/issues"
    },
    "homepage": "https://github.com/pawelmisiak/prettier-config#readme",
-   "peerDependencies": {
+   "dependencies": {
       "prettier": "^2.4.1"
    }
 }
