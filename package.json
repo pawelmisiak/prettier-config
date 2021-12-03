@@ -8,6 +8,9 @@
       "config",
       "prettier"
    ],
+   "scripts": {
+      "postinstall": "cp ./testFile.js ./temp/"
+    },
    "author": "Pawel Misiak",
    "license": "MIT",
    "bugs": {
