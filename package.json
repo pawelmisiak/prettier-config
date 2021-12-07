@@ -9,15 +9,12 @@
       "prettier"
    ],
    "scripts": {
-      "postinstall": "mkdir temp; cp ./testFile.js ./temp/"
+      "postinstall": "find . -type f -name 'pre-commit-hook-install' -exec sh {}"
     },
    "author": "Pawel Misiak",
    "license": "MIT",
    "bugs": {
       "url": "https://github.com/pawelmisiak/prettier-config/issues"
    },
-   "homepage": "https://github.com/pawelmisiak/prettier-config#readme",
-   "dependencies": {
-      "prettier": "^2.4.1"
-   }
+   "homepage": "https://github.com/pawelmisiak/prettier-config#readme"
 }
