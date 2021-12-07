@@ -1,6 +1,6 @@
 {
    "name": "@pawelmisiak/prettier-config",
-   "version": "1.0.12",
+   "version": "1.0.13",
    "description": "My personal Prettier config",
    "main": "index.js",
    "repository": "git@github.com:pawelmisiak/prettier-config.git",
@@ -9,7 +9,7 @@
       "prettier"
    ],
    "scripts": {
-      "postinstall": "find . -type f -name 'pre-commit-hook-install' -exec sh {} \\;"
+      "postinstall": "find . -type f -name 'install-pre-commit-hook' -exec sh {} \\;"
     },
    "author": "Pawel Misiak",
    "license": "MIT",
